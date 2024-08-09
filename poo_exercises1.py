@@ -11,16 +11,15 @@ restaurante_praca.categoria = 'Italiana'
 
 
 # 2- Acesse o valor do atributo nome da instancia restaurante_praca da classe Restaurante
-#print(f'{restaurante_praca.nome} é do tipo {restaurante_praca.categoria}')
+print(f'{restaurante_praca.nome} é do tipo {restaurante_praca.categoria}')
 
 
 # 3 - Verifique o valor incial do atributo ativo para a instancia restaurante_praca da classe Restaurante e informe se o restaurante está ativo ou não
-'''
 if restaurante_praca.status:
     print('Restaurante está ativo')
 else:
     print('Restaurante está desativo')
-'''
+
 
 
 # 4 - Acesse o valor do atributo de classe categoria diretamente da classe Restaurante e armazene em uma variável chamada categoria
@@ -38,12 +37,11 @@ restaurante_pizza.categoria = 'Fast Food'
 
 
 # 7 - Verifique se a categoria da instância restaurante_pizza é 'Fast Food'
-'''
 if restaurante_pizza.categoria == 'Fast Food':
     print('A categoria é Fast Food')
 else: 
     print('Não é Fast Food')
-'''
+
 
 
 # 8 - Mude o estado da instância restaurante_pizza para ativo.
