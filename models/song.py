@@ -1,21 +1,15 @@
 class Song:
-    def __init__(self):
-        title = ''
-        artist = ''
-        running_time = 0
+    def __init__(self, title, artist, running_time):
+        self.title = title
+        self.artist = artist
+        self.running_time = running_time
+
+    def __str__(self):
+        return f'{self.title} by {self.artist}'
 
 
-backbone = Song()
-backbone.title = 'Backbone'
-backbone.artist = 'Gojira'
-backbone.running_time = 259
-anklebitters = Song()
-anklebitters.title = 'Anklebiters'
-anklebitters.artist = 'Paramore'
-anklebitters.running_time = 168
-only_exception = Song()
-only_exception.title = 'Only Exception'
-only_exception.artist = 'Paramore'
-only_exception.running_time = 275
+the_way_make_me_feel = Song('The Way You Make Me Feel', 'Michael Jackson', 508)
+surpestition = Song('Superstition', 'Stevie Wonder', 247)
 
-print(backbone.title)
+print(the_way_make_me_feel)
+print(surpestition)
